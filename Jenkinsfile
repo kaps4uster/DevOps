@@ -7,6 +7,11 @@ pipeline {
       }
     }
    
+ stage('Unit kapil Test') {
+      steps{
+        sh 'mvn clean test'
+      }
+    }
  
    
   }
